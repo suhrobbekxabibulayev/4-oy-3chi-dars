@@ -1,23 +1,4 @@
-// 1
-let k = 10;
-let n= 5;
-for (let i = 0; i < n; i++ ) {
-    console.count(k);
-}
-// 10
-let n = 8;
-let counter = 0
-for(let i = 1; i < 2 * n - 1;i ++) {
-    counter += 2;
-    sim += counter;
-}
-// 11
-let a = 7;
-let n = 10;
 
-for (let i = 1; i <= n; i++) {
-    console.log(a*= 7);
-}
 // for 1
 let k = 7;
 let n =5;
@@ -41,4 +22,19 @@ let k = n;
 let counter = 0;
 for(elt i = 1; i <= n; i++) {
     counter += i ** k
+}
+//for 5
+let a =3;
+let b = 6;
+for (let i = a; i<= b; i++){
+    for(elt j = 0; j < i; j++){
+        text += i
+    }
+}
+// for 6
+let number = 24 ;
+for (let i = a; i<= number; i++){
+    if (nimber % i == 0) {
+        console.log(i)
+    }
 }
